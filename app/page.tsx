@@ -11,7 +11,7 @@ export default function LandingPage() {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-slate-200 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="font-bold text-xl text-slate-900">Dr. Alex Chen</div>
+            <div className="font-bold text-xl text-slate-900">Dayananda Herurkar</div>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="text-slate-600 hover:text-slate-900 transition-colors">
                 About
@@ -69,7 +69,7 @@ export default function LandingPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">About Me</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              PhD in Computer Science with 5+ years of experience in AI research and development
+              AI Researcher with 5+ years of experience in AI research and development
             </p>
           </div>
 
@@ -109,8 +109,8 @@ export default function LandingPage() {
                 <CardContent>
                   <div className="space-y-3">
                     <div>
-                      <div className="font-semibold">PhD in Computer Science</div>
-                      <div className="text-slate-600">Stanford University, 2019</div>
+                      <div className="font-semibold">AI Research Experience</div>
+                      <div className="text-slate-600">Independent Researcher, 2019-Present</div>
                     </div>
                     <div>
                       <div className="font-semibold">MS in Machine Learning</div>
@@ -343,21 +343,21 @@ export default function LandingPage() {
 
           <div className="flex justify-center space-x-6 mb-8">
             <Link
-              href="mailto:alex.chen@email.com"
+              href="mailto:dayananda.herurkar@email.com"
               className="flex items-center space-x-2 text-slate-300 hover:text-white transition-colors"
             >
               <Mail className="h-6 w-6" />
-              <span>alex.chen@email.com</span>
+              <span>dayananda.herurkar@email.com</span>
             </Link>
             <Link
-              href="https://linkedin.com/in/alexchen"
+              href="https://linkedin.com/in/dayanandaherurkar"
               className="flex items-center space-x-2 text-slate-300 hover:text-white transition-colors"
             >
               <Linkedin className="h-6 w-6" />
               <span>LinkedIn</span>
             </Link>
             <Link
-              href="https://github.com/alexchen"
+              href="https://github.com/dayanandvh"
               className="flex items-center space-x-2 text-slate-300 hover:text-white transition-colors"
             >
               <Github className="h-6 w-6" />
@@ -379,7 +379,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="py-8 px-4 sm:px-6 lg:px-8 bg-slate-800 text-slate-400">
         <div className="max-w-6xl mx-auto text-center">
-          <p>&copy; 2024 Dr. Alex Chen. All rights reserved.</p>
+          <p>&copy; 2024 Dayananda Herurkar. All rights reserved.</p>
         </div>
       </footer>
     </div>
